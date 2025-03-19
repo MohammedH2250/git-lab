@@ -1,0 +1,25 @@
+1. What does git add do, and why is it necessary before committing?
+git add adds a change to the working directory to the staging area as 
+a sort of save state before commiting to the local repository.
+
+2. What does git commit do, and why is it necessary before pushing?
+
+Git commit records the changes you've made on your working directory 
+to the local repository from the index and is the last step before 
+uploading your work to the remote depository.
+
+3. What is the difference between git clone and git pull, and when should each be used?
+
+-- Git clone --
+- Copies all files to local device 
+- Should be used when starting a new project that exists remotely, and obtaining 
+  a repository with all of its information for the first time.
+
+-- Git Pull -- 
+- Copies only the modified files to the local device.
+- Should be used when a copy of the repository already exists locally, and 
+  need to sync it with the changes from remote repository
+
+4. How can you verify that a git pull was successful after making changes on GitHub? 
+You can verify that a git pull was successful after making changes on GitHub by typing 
+"git status" in cmd. This will give you the updated status of your repository.
